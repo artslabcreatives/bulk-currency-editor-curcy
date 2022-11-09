@@ -1,13 +1,38 @@
-# WP Kirk
+# Bulk Currency Editor for CURCY - Multi Currency for WooCommerce
 
-[![Latest Stable Version](https://poser.pugx.org/wpbones/wpbones/v/stable)](https://packagist.org/packages/wpbones/wpbones)
+Bulk Currency Editor CURCY is a plugin that uses Multi Currency Plugin, but allows product secondary currencies to be edited in bulk
 
-WP Kirk is a boilerplate plugin written by using [WP Bones](https://github.com/wpbones/WPBones) Framework Library.
-You may start from here to create a WP Bones WordPress plugin.
+## Requirements
 
-As you know, WordPress doesn't support composer. So, I have used a little trick to fix this issue.
+WordPress
+WooCommerce
+CURCY - Multi Currency for WooCommerce
 
-## Requirement
+### Installation
+
+This section describes how to install the plugin and get it working.
+
+1. Upload the entire content of plugin archive to your `/wp-content/plugins/` directory.
+2. Activate the plugin through the 'Plugins' menu in WordPress (deactivate and reactivate if you're upgrading).
+3. Done. Enjoy.
+
+### Frequently Asked Questions
+
+= What is Bulk Currency Editor for CURCY - Multi Currency for WooCommerce ? =
+
+It is a plugin that depends on WooCommerce and CURCY - Multi Currency for WooCommerce plugins, it extends the behaviour of the plugin to enhance speed of editing
+
+## Screenshots
+
+### Changelog ==
+
+First release pending
+
+###  Upgrade Notice ==
+
+No upgrade yet
+
+## Development
 
 ### Composer
 
@@ -33,13 +58,3 @@ Display help
 
     $ php bones
 
-Change namespace
-
-    $ php bones namespace MyPluginName
-
-The last command is very important. You can change the namespace in anytime. However, I suggest you to make this only the first time, when the plugin is inactive.
-After changing of the namespace, you can start to develop you plugin. Your namespace will be `MyPluginName`.
-
-## Documentation
-
-You'll find the [complete docs here](http://wpbones.github.io/WPBones).
