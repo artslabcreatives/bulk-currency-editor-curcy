@@ -24,11 +24,11 @@ It is a plugin that depends on WooCommerce and CURCY - Multi Currency for WooCom
 
 ## Screenshots
 
-### Changelog ==
+### Changelog
 
 First release pending
 
-###  Upgrade Notice ==
+###  Upgrade Notice
 
 No upgrade yet
 
