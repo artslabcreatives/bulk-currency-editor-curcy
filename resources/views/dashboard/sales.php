@@ -19,7 +19,7 @@
 							<table  class="table table-striped table-bordered dataTable" id="myTable" style="width:100%" >
 								<thead>
 									<tr>
-										<th colspan="7">
+										<th colspan="<?php echo count($currencies) + 4;?>">
 											<input type="checkbox" name="select_all" class="select_all" />
 											Select All
 										</th>
@@ -28,6 +28,7 @@
 										<th></th>
 										<th>ID</th>
 										<th>Product Name</th>
+										<th>Categories</th>
 										<?php foreach ($currencies as $curre) {?>
 											<th><?php echo $curre;?></th>
 										<?php } ?>
@@ -41,6 +42,7 @@
 											</td>
 											<td><?php echo $product['ID']; ?></td>
 											<td><a target="_blank" href="<?php echo 'post.php?post='.$product['ID'].'&action=edit'; ?>"><?php echo $product['title']; ?></a></td>
+											<td><?php echo $product['categories']; ?></td>
 											<?php foreach ($currencies as $curre) {?>
 												<td><?php echo get_woocommerce_currency_symbol($curre); ?><?php echo ($product['meta_value'] != null && property_exists($product['meta_value'], $curre) == true) ? ($product['meta_value']->{$curre} != "" ? $product['meta_value']->{$curre} : "0") : "0"; ?></td>
 											<?php } ?>

@@ -18,7 +18,6 @@ class ProductEditor extends Controller
 	public function index()
 	{
 		// GET
-
 		//Gets all options from woo commerce multi plugin
 		$currencyOptions = get_option("woo_multi_currency_params");
 		//Gets all the enabled currencies from woo commerce multi plugin
@@ -41,6 +40,9 @@ class ProductEditor extends Controller
 					->where([
 						['post_type', 'product'],
 						['post_status', 'publish']
+					])
+					->orWhere([
+						['post_type', 'product_variation']
 					])->get();
 
 		//Empty collection used for prepare products to be display on the admin front end
@@ -48,12 +50,14 @@ class ProductEditor extends Controller
 
 		//Loops through the products returned by the db query (posts query)
 		foreach ($productraws as $key => $product) {
-			// Loops through the postmeta returned by the second query
+			
 			$_regular_price_wmcp = get_post_meta($product->ID, '_regular_price_wmcp', true);
+			$categories = collect(get_the_terms($product->ID, 'product_cat'));
 
 			$item = collect([
 				'ID' => $product->ID,
 				'title' => $product->title,
+				'categories' => collect($categories->pluck('name'))->join(', '),
 				'post_id' => $product->ID,
 				'meta_value' => json_decode($_regular_price_wmcp),
 			]);
@@ -120,7 +124,7 @@ class ProductEditor extends Controller
 				//Encoding existing prices in JSON
 				$updatedPricesJSON = json_encode($updatedPrices);
 				//Updating the regular pricing post meta with the newly updated values
-				$resp += update_post_meta($post_id, '_regular_price_wmcp', $updatedPricesJSON, $existingPricesJSON);
+				$resp += update_post_meta($post_id, '_regular_price_wmcp', $updatedPricesJSON);
 			}
 		}
 		//back to main page

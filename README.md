@@ -22,7 +22,7 @@ This section describes how to install the plugin and get it working.
 
 It is a plugin that depends on WooCommerce and CURCY - Multi Currency for WooCommerce plugins, it extends the behaviour of the plugin to enhance speed of editing
 
-## Screenshots
+###  Screenshots
 
 ### Changelog
 
@@ -33,6 +33,8 @@ First release pending
 No upgrade yet
 
 ## Development
+
+This section is for the development of the plugin
 
 ### Composer
 

@@ -38,6 +38,9 @@ class SaleEditor extends Controller
 					->where([
 						['post_type', 'product'],
 						['post_status', 'publish']
+					])
+					->orWhere([
+						['post_type', 'product_variation']
 					])->get();
 
 		//Empty collection used for prepare products to be display on the admin front end
@@ -45,12 +48,14 @@ class SaleEditor extends Controller
 
 		//Loops through the products returned by the db query (posts query)
 		foreach ($productraws as $key => $product) {
-			// Loops through the postmeta returned by the second query
+			
 			$_sale_price_wmcp = get_post_meta($product->ID, '_sale_price_wmcp', true);
+			$categories = collect(get_the_terms($product->ID, 'product_cat'));
 
 			$item = collect([
 				'ID' => $product->ID,
 				'title' => $product->title,
+				'categories' => collect($categories->pluck('name'))->join(', '),
 				'post_id' => $product->ID,
 				'meta_value' => json_decode($_sale_price_wmcp),
 			]);
