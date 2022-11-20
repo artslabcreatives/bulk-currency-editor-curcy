@@ -18,6 +18,8 @@ chmod +x wp-cli.phar
 sudo mv wp-cli.phar /usr/local/bin/wp
 cd /home/runner/work/bulk-currency-editor-curcy/bulk-currency-editor-curcy/wordpress
 wp core download
+wp config create --dbname=testdb --dbuser=homestead --dbpass=secret --dbhost=testdb
+wp core install --url=localhost --title=Example --admin_user=supervisor --admin_password=strongpassword --admin_email=info@example.com
 
 cd /home/runner/work/bulk-currency-editor-curcy/bulk-currency-editor-curcy/
 mv temp.zip /home/runner/work/bulk-currency-editor-curcy/bulk-currency-editor-curcy/wordpress/wp-content/plugins
