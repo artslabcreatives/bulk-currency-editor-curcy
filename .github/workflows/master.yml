@@ -18,7 +18,7 @@ jobs:
     - name: Install composer
       run: sudo chown -R $USER ~/.composer && sudo composer install
     - name: Temp zip
-      run: zip temp.zip .
+      run: zip -r temp.zip .
     - name: Install wp-cli
       run: curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
     - name: config wp-cli
