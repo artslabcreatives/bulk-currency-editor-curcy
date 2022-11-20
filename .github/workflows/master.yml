@@ -18,19 +18,16 @@ jobs:
     - name: Run composer
       run: sudo chown -R $USER ~/.composer && sudo composer install
     - name: Run composer
-      run: sudo php bones deploy ../updates
+      run: sudo php bones deploy ../../updates
     - name: Updates Folder Zip Delete
       run: sudo rm -f updates/artlab-bulk-product-editor.zip
     - name: Move Directory
       run: >
-        cd ../../../ &&
-        ls -l
-    - name: Zip Folder
-      run: zip -r artlab-bulk-product-editor.zip ./updates -x ".git/*" ".github/*"
-    - name: Initial Zip
-      run: ls -l
-    - name: Zip the Zip
-      run: zip -r artlab-bulk-product-editor2.zip ./artlab-bulk-product-editor.zip
+        cd ../../ &&
+        ls -l &&
+        zip -r artlab-bulk-product-editor.zip ./updates -x ".git/*" ".github/*" &&
+        ls -l &&
+        zip -r artlab-bulk-product-editor2.zip ./artlab-bulk-product-editor.zip
     - name: First Zip Delete
       run: rm artlab-bulk-product-editor.zip
     - name: Zip Rename
