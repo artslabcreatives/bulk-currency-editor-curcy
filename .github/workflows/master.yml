@@ -35,13 +35,13 @@ jobs:
     - name: unzip folder
       run: cd wordpress/wp-content/plugins && unzip temp.zip -d temp && cd temp
 
-    - name: ls
-      run: ls -l
+    - name: ls1
+      run: ls -1 -d "$PWD/"*
 
-    - name: df 
+    - name: df2 
       run: php bones deploy updatesfff
 
-    - name: ls
+    - name: ls3
       run: ls -1 -d "$PWD/"*
 
     - name: Updates Folder Zip Delete
