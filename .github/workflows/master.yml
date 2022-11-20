@@ -31,7 +31,7 @@ jobs:
     - name: back to main
       run: cd .. && ls -l
     - name: move temp to wordpress
-      run: mv temp.zip wp-content/plugins
+      run: mv temp.zip wordpress/wp-content/plugins
     - name: unzip folder
       run: cd wp-content/plugins && unzip temp.zip -d temp && cd temp
 
