@@ -17,6 +17,7 @@ sudo mv wp-cli.phar /usr/local/bin/wp
 cd /home/runner/work/bulk-currency-editor-curcy/bulk-currency-editor-curcy/wordpress
 wp core download
 
+cd /home/runner/work/bulk-currency-editor-curcy/bulk-currency-editor-curcy/
 mv temp.zip /home/runner/work/bulk-currency-editor-curcy/bulk-currency-editor-curcy/wordpress/wp-content/plugins
 cd /home/runner/work/bulk-currency-editor-curcy/bulk-currency-editor-curcy/wordpress/wp-content/plugins
 unzip temp.zip -d temp
