@@ -20,7 +20,7 @@ jobs:
     - name: Updates Folder Zip Delete
       run: sudo rm -f updates/artlab-bulk-product-editor.zip
     - name: Run php bones
-      run: sh run.sh
+      run: bash run.sh
     - name: First Zip Delete
       run: rm artlab-bulk-product-editor.zip
     - name: Zip Rename
