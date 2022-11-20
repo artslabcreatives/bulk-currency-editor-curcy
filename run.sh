@@ -1,4 +1,4 @@
-sudo php bones deploy updates2
-ls -l
-zip -r artlab-bulk-product-editor.zip updates2
-zip -r artlab-bulk-product-editor2.zip artlab-bulk-product-editor.zip
+sudo apt update
+sudo apt install nginx
+sudo apt install mysql-server
+sudo apt install php-fpm php-mysql

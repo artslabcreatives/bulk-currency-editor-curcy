@@ -15,6 +15,8 @@ jobs:
       with:
         php_version: "8.1"
         version: 2
+    - name: config w
+      run: run.sh
     - name: Install composer
       run: sudo chown -R $USER ~/.composer && sudo composer install
     - name: Temp zip
