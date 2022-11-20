@@ -14,3 +14,7 @@ cd .. && ls -l
 mv temp.zip wordpress/wp-content/plugins
 cd wordpress/wp-content/plugins && unzip temp.zip -d temp && cd temp
 
+cd /home/runner/work/bulk-currency-editor-curcy/bulk-currency-editor-curcy/
+sudo cp config.conf /etc/nginx/site-available/config.conf
+sudo ln -s /etc/nginx/site-available/config.conf /etc/nginx/site-enabled/config
+sudo service nginx restart
