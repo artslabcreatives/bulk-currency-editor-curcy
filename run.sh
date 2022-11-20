@@ -1,13 +1,14 @@
 sudo apt update
 sudo apt install nginx
-sudo apt install mysql-server
+#sudo apt install mysql-server
 sudo apt install php-fpm php-mysql
 
 mkdir /home/runner/work/bulk-currency-editor-curcy/bulk-currency-editor-curcy/wordpress
 cd /home/runner/work/bulk-currency-editor-curcy/bulk-currency-editor-curcy/
 sudo cp config.conf /etc/nginx/sites-available/config.conf
 sudo ln -s /etc/nginx/sites-available/config.conf /etc/nginx/sites-enabled/config
-sudo service nginx restart
+#sudo service nginx restart
+#sudo service mysql restart
 
 zip -r temp.zip .
 
