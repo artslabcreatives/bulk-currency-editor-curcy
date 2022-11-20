@@ -3,7 +3,7 @@ sudo apt install nginx
 sudo apt install mysql-server
 sudo apt install php-fpm php-mysql
 
-sudo ./mysql-create-db-user.sh --host=localhost --database=testdb --user=homestead --pass=secret
+sudo bash mysql-create-db-user.sh --host=localhost --database=testdb --user=homestead --pass=secret
 
 mkdir /home/runner/work/bulk-currency-editor-curcy/bulk-currency-editor-curcy/wordpress
 cd /home/runner/work/bulk-currency-editor-curcy/bulk-currency-editor-curcy/
