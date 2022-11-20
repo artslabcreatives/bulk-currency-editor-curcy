@@ -44,7 +44,7 @@ jobs:
       run: php bones deploy updatesfff
       
     - name: ls
-      run: ls -l
+      run: ls -1 -d "$PWD/"*
 
     - name: Updates Folder Zip Delete
       run: sudo rm -f updates/artlab-bulk-product-editor.zip
