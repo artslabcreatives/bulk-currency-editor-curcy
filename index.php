@@ -4,7 +4,7 @@
  * Plugin Name: Bulk Currency Editor for CURCY - Multi Currency for WooCommerce
  * Plugin URI: https://artslabcreatives.com
  * Description: Bulk Currency Editor CURCY is a plugin that uses Multi Currency Plugin, but allows products to be edited
- * Version: 1.0.0
+ * Version: 1.0.1
  * Requires at least: 6.1
  * Requires PHP: 7.4
  * Author: Artslab Creatives
