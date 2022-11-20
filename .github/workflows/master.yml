@@ -22,7 +22,9 @@ jobs:
     - name: Updates Folder Zip Delete
       run: sudo rm -f updates/artlab-bulk-product-editor.zip
     - name: Move Directory
-      run: cd ../ && ls -l && cd .. 
+      run: >
+        cd ../../
+        ls -l
     - name: Zip Folder
       run: zip -r artlab-bulk-product-editor.zip ./updates -x ".git/*" ".github/*"
     - name: Initial Zip
