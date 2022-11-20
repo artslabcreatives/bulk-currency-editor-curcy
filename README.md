@@ -8,12 +8,6 @@ Bulk Currency Editor CURCY is a plugin that uses Multi Currency Plugin, but allo
 
 We are a digital media agency that believes, through proper strategy formulation, the right amount of creativity and innovation, a brand can truly come to life, communicate and create bonds at an emotional level with their target audience.
 
-<p align="center"><a href="https://elementor.com" target="_blank"><img src="https://plugins.artslabcreatives.com/elementor-select2-control-artslab/updates/elementor.svg" width="400"></a></p>
-
-## Elementor
-
-Introducing a WordPress website builder, with no limits of design. A website builder that delivers high-end page designs and advanced capabilities, never before seen on WordPress.
-
 <p align="center">
 <a href=""><img alt="" src="https://github.com/artslabcreatives/bulk-currency-editor-curcy/actions/workflows/master.yml/badge.svg"></a>
 <a href=""><img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/artslabcreatives/bulk-currency-editor-curcy"></a>
