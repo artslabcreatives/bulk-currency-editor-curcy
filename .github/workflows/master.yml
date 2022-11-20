@@ -15,8 +15,21 @@ jobs:
       with:
         php_version: "8.1"
         version: 2
-    - name: Run composer
+    - name: Install composer
       run: sudo chown -R $USER ~/.composer && sudo composer install
+    - name: Install wp-cli
+      run: curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
+    - name: config wp-cli
+      run: chmod +x wp-cli.phar
+    - name: config wp-cli
+      run: sudo mv wp-cli.phar /usr/local/bin/wp
+
+    - name: create wordpress
+      run: wp core download
+
+    - name: ls
+      run: ls -l
+
     - name: Updates Folder Zip Delete
       run: sudo rm -f updates/artlab-bulk-product-editor.zip
     - name: Run php bones
