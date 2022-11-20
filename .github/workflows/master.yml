@@ -21,7 +21,9 @@ jobs:
       run: sudo php bones deploy ../updates
     - name: Updates Folder Zip Delete
       run: sudo rm -f updates/artlab-bulk-product-editor.zip
-    - name: Move Director
+    - name: Move Directory
+      run: cd ..
+    - name: Move Directory
       run: cd ..
     - name: Zip Folder
       run: zip -r artlab-bulk-product-editor.zip ./updates -x ".git/*" ".github/*"
