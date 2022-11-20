@@ -1,0 +1,701 @@
+Running php-build composer
+WARNING! Your password will be stored unencrypted in /home/runner/.docker/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+Login Succeeded
+Pulling docker.pkg.github.com/artslabcreatives/bulk-currency-editor-curcy/php-actions_composer_bulk-currency-editor-curcy:php-8.1-build2.1.0
+php-8.1-build2.1.0: Pulling from artslabcreatives/bulk-currency-editor-curcy/php-actions_composer_bulk-currency-editor-curcy
+ca7dd9ec2225: Pulling fs layer
+1b78b4fe0ca1: Pulling fs layer
+9d6040f2a28f: Pulling fs layer
+0e2e66b89284: Pulling fs layer
+c91bb44404d4: Pulling fs layer
+568a7ba86886: Pulling fs layer
+639b7fe05dfb: Pulling fs layer
+39e51fb77a01: Pulling fs layer
+5ba13a915813: Pulling fs layer
+427233e96ea2: Pulling fs layer
+568a7ba86886: Waiting
+639b7fe05dfb: Waiting
+39e51fb77a01: Waiting
+5ba13a915813: Waiting
+427233e96ea2: Waiting
+0e2e66b89284: Waiting
+c91bb44404d4: Waiting
+ca7dd9ec2225: Verifying Checksum
+ca7dd9ec2225: Download complete
+9d6040f2a28f: Verifying Checksum
+9d6040f2a28f: Download complete
+1b78b4fe0ca1: Verifying Checksum
+1b78b4fe0ca1: Download complete
+ca7dd9ec2225: Pull complete
+1b78b4fe0ca1: Pull complete
+0e2e66b89284: Verifying Checksum
+0e2e66b89284: Download complete
+9d6040f2a28f: Pull complete
+568a7ba86886: Verifying Checksum
+568a7ba86886: Download complete
+0e2e66b89284: Pull complete
+c91bb44404d4: Download complete
+39e51fb77a01: Verifying Checksum
+39e51fb77a01: Download complete
+c91bb44404d4: Pull complete
+568a7ba86886: Pull complete
+5ba13a915813: Verifying Checksum
+5ba13a915813: Download complete
+639b7fe05dfb: Verifying Checksum
+639b7fe05dfb: Download complete
+427233e96ea2: Verifying Checksum
+427233e96ea2: Download complete
+639b7fe05dfb: Pull complete
+39e51fb77a01: Pull complete
+5ba13a915813: Pull complete
+427233e96ea2: Pull complete
+Digest: sha256:6d3052df12ecfebf5fa4a0db374559686879d3aa8939b409b3bda460cc74336d
+Status: Downloaded newer image for docker.pkg.github.com/artslabcreatives/bulk-currency-editor-curcy/php-actions_composer_bulk-currency-editor-curcy:php-8.1-build2.1.0
+docker.pkg.github.com/artslabcreatives/bulk-currency-editor-curcy/php-actions_composer_bulk-currency-editor-curcy:php-8.1-build2.1.0
+Docker tag: docker.pkg.github.com/artslabcreatives/bulk-currency-editor-curcy/php-actions_composer_bulk-currency-editor-curcy:php-8.1-build2.1.0
+No private keys supplied
+Command: composer install --no-progress --no-interaction
+Skipping env variable PWD
+Skipping env variable HOME
+Skipping env variable SHLVL
+Skipping env variable PATH
+Running php-build composer
+WARNING! Your password will be stored unencrypted in /home/runner/.docker/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+Login Succeeded
+Pulling docker.pkg.github.com/artslabcreatives/bulk-currency-editor-curcy/php-actions_composer_bulk-currency-editor-curcy:php-8.1-build2.1.0
+php-8.1-build2.1.0: Pulling from artslabcreatives/bulk-currency-editor-curcy/php-actions_composer_bulk-currency-editor-curcy
+ca7dd9ec2225: Pulling fs layer
+1b78b4fe0ca1: Pulling fs layer
+9d6040f2a28f: Pulling fs layer
+0e2e66b89284: Pulling fs layer
+c91bb44404d4: Pulling fs layer
+568a7ba86886: Pulling fs layer
+639b7fe05dfb: Pulling fs layer
+39e51fb77a01: Pulling fs layer
+5ba13a915813: Pulling fs layer
+427233e96ea2: Pulling fs layer
+639b7fe05dfb: Waiting
+39e51fb77a01: Waiting
+5ba13a915813: Waiting
+427233e96ea2: Waiting
+0e2e66b89284: Waiting
+c91bb44404d4: Waiting
+568a7ba86886: Waiting
+9d6040f2a28f: Verifying Checksum
+9d6040f2a28f: Download complete
+ca7dd9ec2225: Verifying Checksum
+1b78b4fe0ca1: Download complete
+ca7dd9ec2225: Pull complete
+1b78b4fe0ca1: Pull complete
+9d6040f2a28f: Pull complete
+0e2e66b89284: Verifying Checksum
+0e2e66b89284: Download complete
+0e2e66b89284: Pull complete
+568a7ba86886: Verifying Checksum
+568a7ba86886: Download complete
+c91bb44404d4: Verifying Checksum
+c91bb44404d4: Download complete
+c91bb44404d4: Pull complete
+568a7ba86886: Pull complete
+39e51fb77a01: Verifying Checksum
+39e51fb77a01: Download complete
+5ba13a915813: Verifying Checksum
+5ba13a915813: Download complete
+639b7fe05dfb: Verifying Checksum
+639b7fe05dfb: Download complete
+427233e96ea2: Verifying Checksum
+427233e96ea2: Download complete
+639b7fe05dfb: Pull complete
+39e51fb77a01: Pull complete
+5ba13a915813: Pull complete
+427233e96ea2: Pull complete
+Digest: sha256:6d3052df12ecfebf5fa4a0db374559686879d3aa8939b409b3bda460cc74336d
+Status: Downloaded newer image for docker.pkg.github.com/artslabcreatives/bulk-currency-editor-curcy/php-actions_composer_bulk-currency-editor-curcy:php-8.1-build2.1.0
+docker.pkg.github.com/artslabcreatives/bulk-currency-editor-curcy/php-actions_composer_bulk-currency-editor-curcy:php-8.1-build2.1.0
+Docker tag: docker.pkg.github.com/artslabcreatives/bulk-currency-editor-curcy/php-actions_composer_bulk-currency-editor-curcy:php-8.1-build2.1.0
+No private keys supplied
+Command: composer install --no-progress --no-interaction
+Skipping env variable PWD
+Skipping env variable HOME
+Skipping env variable SHLVL
+Skipping env variable PATH
+Running php-build composer
+WARNING! Your password will be stored unencrypted in /home/runner/.docker/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+Login Succeeded
+Pulling docker.pkg.github.com/artslabcreatives/bulk-currency-editor-curcy/php-actions_composer_bulk-currency-editor-curcy:php-8.1-build2.1.0
+php-8.1-build2.1.0: Pulling from artslabcreatives/bulk-currency-editor-curcy/php-actions_composer_bulk-currency-editor-curcy
+ca7dd9ec2225: Pulling fs layer
+1b78b4fe0ca1: Pulling fs layer
+9d6040f2a28f: Pulling fs layer
+0e2e66b89284: Pulling fs layer
+c91bb44404d4: Pulling fs layer
+568a7ba86886: Pulling fs layer
+639b7fe05dfb: Pulling fs layer
+39e51fb77a01: Pulling fs layer
+5ba13a915813: Pulling fs layer
+427233e96ea2: Pulling fs layer
+0e2e66b89284: Waiting
+c91bb44404d4: Waiting
+568a7ba86886: Waiting
+639b7fe05dfb: Waiting
+39e51fb77a01: Waiting
+5ba13a915813: Waiting
+427233e96ea2: Waiting
+ca7dd9ec2225: Verifying Checksum
+ca7dd9ec2225: Download complete
+9d6040f2a28f: Verifying Checksum
+9d6040f2a28f: Download complete
+1b78b4fe0ca1: Verifying Checksum
+1b78b4fe0ca1: Download complete
+ca7dd9ec2225: Pull complete
+1b78b4fe0ca1: Pull complete
+9d6040f2a28f: Pull complete
+0e2e66b89284: Verifying Checksum
+0e2e66b89284: Download complete
+0e2e66b89284: Pull complete
+568a7ba86886: Download complete
+c91bb44404d4: Download complete
+c91bb44404d4: Pull complete
+39e51fb77a01: Verifying Checksum
+39e51fb77a01: Download complete
+568a7ba86886: Pull complete
+639b7fe05dfb: Verifying Checksum
+639b7fe05dfb: Download complete
+5ba13a915813: Verifying Checksum
+5ba13a915813: Download complete
+427233e96ea2: Verifying Checksum
+427233e96ea2: Download complete
+639b7fe05dfb: Pull complete
+39e51fb77a01: Pull complete
+5ba13a915813: Pull complete
+427233e96ea2: Pull complete
+Digest: sha256:6d3052df12ecfebf5fa4a0db374559686879d3aa8939b409b3bda460cc74336d
+Status: Downloaded newer image for docker.pkg.github.com/artslabcreatives/bulk-currency-editor-curcy/php-actions_composer_bulk-currency-editor-curcy:php-8.1-build2.1.0
+docker.pkg.github.com/artslabcreatives/bulk-currency-editor-curcy/php-actions_composer_bulk-currency-editor-curcy:php-8.1-build2.1.0
+Docker tag: docker.pkg.github.com/artslabcreatives/bulk-currency-editor-curcy/php-actions_composer_bulk-currency-editor-curcy:php-8.1-build2.1.0
+No private keys supplied
+Command: composer install --no-progress --no-interaction
+Skipping env variable PWD
+Skipping env variable HOME
+Skipping env variable SHLVL
+Skipping env variable PATH
+Running php-build composer
+WARNING! Your password will be stored unencrypted in /home/runner/.docker/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+Login Succeeded
+Pulling docker.pkg.github.com/artslabcreatives/bulk-currency-editor-curcy/php-actions_composer_bulk-currency-editor-curcy:php-8.1-build2.1.0
+php-8.1-build2.1.0: Pulling from artslabcreatives/bulk-currency-editor-curcy/php-actions_composer_bulk-currency-editor-curcy
+ca7dd9ec2225: Pulling fs layer
+1b78b4fe0ca1: Pulling fs layer
+9d6040f2a28f: Pulling fs layer
+0e2e66b89284: Pulling fs layer
+c91bb44404d4: Pulling fs layer
+568a7ba86886: Pulling fs layer
+639b7fe05dfb: Pulling fs layer
+39e51fb77a01: Pulling fs layer
+5ba13a915813: Pulling fs layer
+427233e96ea2: Pulling fs layer
+0e2e66b89284: Waiting
+c91bb44404d4: Waiting
+568a7ba86886: Waiting
+639b7fe05dfb: Waiting
+39e51fb77a01: Waiting
+5ba13a915813: Waiting
+427233e96ea2: Waiting
+9d6040f2a28f: Verifying Checksum
+9d6040f2a28f: Download complete
+ca7dd9ec2225: Verifying Checksum
+ca7dd9ec2225: Download complete
+ca7dd9ec2225: Pull complete
+1b78b4fe0ca1: Verifying Checksum
+1b78b4fe0ca1: Pull complete
+9d6040f2a28f: Pull complete
+0e2e66b89284: Verifying Checksum
+0e2e66b89284: Download complete
+0e2e66b89284: Pull complete
+c91bb44404d4: Download complete
+568a7ba86886: Verifying Checksum
+568a7ba86886: Download complete
+c91bb44404d4: Pull complete
+568a7ba86886: Pull complete
+5ba13a915813: Verifying Checksum
+5ba13a915813: Download complete
+39e51fb77a01: Verifying Checksum
+39e51fb77a01: Download complete
+639b7fe05dfb: Verifying Checksum
+639b7fe05dfb: Download complete
+427233e96ea2: Verifying Checksum
+427233e96ea2: Download complete
+639b7fe05dfb: Pull complete
+39e51fb77a01: Pull complete
+5ba13a915813: Pull complete
+427233e96ea2: Pull complete
+Digest: sha256:6d3052df12ecfebf5fa4a0db374559686879d3aa8939b409b3bda460cc74336d
+Status: Downloaded newer image for docker.pkg.github.com/artslabcreatives/bulk-currency-editor-curcy/php-actions_composer_bulk-currency-editor-curcy:php-8.1-build2.1.0
+docker.pkg.github.com/artslabcreatives/bulk-currency-editor-curcy/php-actions_composer_bulk-currency-editor-curcy:php-8.1-build2.1.0
+Docker tag: docker.pkg.github.com/artslabcreatives/bulk-currency-editor-curcy/php-actions_composer_bulk-currency-editor-curcy:php-8.1-build2.1.0
+No private keys supplied
+Command: composer install --no-progress --no-interaction
+Skipping env variable PWD
+Skipping env variable HOME
+Skipping env variable SHLVL
+Skipping env variable PATH
+Running php-build composer
+WARNING! Your password will be stored unencrypted in /home/runner/.docker/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+Login Succeeded
+Pulling docker.pkg.github.com/artslabcreatives/bulk-currency-editor-curcy/php-actions_composer_bulk-currency-editor-curcy:php-8.1-build2.1.0
+php-8.1-build2.1.0: Pulling from artslabcreatives/bulk-currency-editor-curcy/php-actions_composer_bulk-currency-editor-curcy
+ca7dd9ec2225: Pulling fs layer
+1b78b4fe0ca1: Pulling fs layer
+9d6040f2a28f: Pulling fs layer
+0e2e66b89284: Pulling fs layer
+c91bb44404d4: Pulling fs layer
+568a7ba86886: Pulling fs layer
+639b7fe05dfb: Pulling fs layer
+39e51fb77a01: Pulling fs layer
+5ba13a915813: Pulling fs layer
+427233e96ea2: Pulling fs layer
+568a7ba86886: Waiting
+639b7fe05dfb: Waiting
+39e51fb77a01: Waiting
+5ba13a915813: Waiting
+0e2e66b89284: Waiting
+427233e96ea2: Waiting
+c91bb44404d4: Waiting
+9d6040f2a28f: Verifying Checksum
+9d6040f2a28f: Download complete
+1b78b4fe0ca1: Verifying Checksum
+1b78b4fe0ca1: Download complete
+ca7dd9ec2225: Verifying Checksum
+ca7dd9ec2225: Download complete
+ca7dd9ec2225: Pull complete
+1b78b4fe0ca1: Pull complete
+9d6040f2a28f: Pull complete
+0e2e66b89284: Verifying Checksum
+0e2e66b89284: Download complete
+0e2e66b89284: Pull complete
+c91bb44404d4: Verifying Checksum
+c91bb44404d4: Download complete
+568a7ba86886: Verifying Checksum
+568a7ba86886: Download complete
+c91bb44404d4: Pull complete
+568a7ba86886: Pull complete
+39e51fb77a01: Verifying Checksum
+39e51fb77a01: Download complete
+5ba13a915813: Verifying Checksum
+5ba13a915813: Download complete
+639b7fe05dfb: Verifying Checksum
+639b7fe05dfb: Download complete
+427233e96ea2: Verifying Checksum
+427233e96ea2: Download complete
+639b7fe05dfb: Pull complete
+39e51fb77a01: Pull complete
+5ba13a915813: Pull complete
+427233e96ea2: Pull complete
+Digest: sha256:6d3052df12ecfebf5fa4a0db374559686879d3aa8939b409b3bda460cc74336d
+Status: Downloaded newer image for docker.pkg.github.com/artslabcreatives/bulk-currency-editor-curcy/php-actions_composer_bulk-currency-editor-curcy:php-8.1-build2.1.0
+docker.pkg.github.com/artslabcreatives/bulk-currency-editor-curcy/php-actions_composer_bulk-currency-editor-curcy:php-8.1-build2.1.0
+Docker tag: docker.pkg.github.com/artslabcreatives/bulk-currency-editor-curcy/php-actions_composer_bulk-currency-editor-curcy:php-8.1-build2.1.0
+No private keys supplied
+Command: composer install --no-progress --no-interaction
+Skipping env variable PWD
+Skipping env variable HOME
+Skipping env variable SHLVL
+Skipping env variable PATH
+Running php-build composer
+WARNING! Your password will be stored unencrypted in /home/runner/.docker/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+Login Succeeded
+Pulling docker.pkg.github.com/artslabcreatives/bulk-currency-editor-curcy/php-actions_composer_bulk-currency-editor-curcy:php-8.1-build2.1.0
+php-8.1-build2.1.0: Pulling from artslabcreatives/bulk-currency-editor-curcy/php-actions_composer_bulk-currency-editor-curcy
+ca7dd9ec2225: Pulling fs layer
+1b78b4fe0ca1: Pulling fs layer
+9d6040f2a28f: Pulling fs layer
+0e2e66b89284: Pulling fs layer
+c91bb44404d4: Pulling fs layer
+568a7ba86886: Pulling fs layer
+639b7fe05dfb: Pulling fs layer
+39e51fb77a01: Pulling fs layer
+5ba13a915813: Pulling fs layer
+427233e96ea2: Pulling fs layer
+568a7ba86886: Waiting
+0e2e66b89284: Waiting
+c91bb44404d4: Waiting
+639b7fe05dfb: Waiting
+5ba13a915813: Waiting
+427233e96ea2: Waiting
+39e51fb77a01: Waiting
+ca7dd9ec2225: Verifying Checksum
+ca7dd9ec2225: Download complete
+9d6040f2a28f: Verifying Checksum
+9d6040f2a28f: Download complete
+1b78b4fe0ca1: Download complete
+ca7dd9ec2225: Pull complete
+1b78b4fe0ca1: Pull complete
+0e2e66b89284: Verifying Checksum
+0e2e66b89284: Download complete
+9d6040f2a28f: Pull complete
+c91bb44404d4: Download complete
+568a7ba86886: Verifying Checksum
+568a7ba86886: Download complete
+0e2e66b89284: Pull complete
+c91bb44404d4: Pull complete
+568a7ba86886: Pull complete
+39e51fb77a01: Verifying Checksum
+39e51fb77a01: Download complete
+639b7fe05dfb: Verifying Checksum
+639b7fe05dfb: Download complete
+427233e96ea2: Verifying Checksum
+427233e96ea2: Download complete
+5ba13a915813: Verifying Checksum
+5ba13a915813: Download complete
+639b7fe05dfb: Pull complete
+39e51fb77a01: Pull complete
+5ba13a915813: Pull complete
+427233e96ea2: Pull complete
+Digest: sha256:6d3052df12ecfebf5fa4a0db374559686879d3aa8939b409b3bda460cc74336d
+Status: Downloaded newer image for docker.pkg.github.com/artslabcreatives/bulk-currency-editor-curcy/php-actions_composer_bulk-currency-editor-curcy:php-8.1-build2.1.0
+docker.pkg.github.com/artslabcreatives/bulk-currency-editor-curcy/php-actions_composer_bulk-currency-editor-curcy:php-8.1-build2.1.0
+Docker tag: docker.pkg.github.com/artslabcreatives/bulk-currency-editor-curcy/php-actions_composer_bulk-currency-editor-curcy:php-8.1-build2.1.0
+No private keys supplied
+Command: composer install --no-progress --no-interaction
+Skipping env variable PWD
+Skipping env variable HOME
+Skipping env variable SHLVL
+Skipping env variable PATH
+Running php-build composer
+WARNING! Your password will be stored unencrypted in /home/runner/.docker/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+Login Succeeded
+Pulling docker.pkg.github.com/artslabcreatives/bulk-currency-editor-curcy/php-actions_composer_bulk-currency-editor-curcy:php-8.1-build2.1.0
+php-8.1-build2.1.0: Pulling from artslabcreatives/bulk-currency-editor-curcy/php-actions_composer_bulk-currency-editor-curcy
+ca7dd9ec2225: Pulling fs layer
+1b78b4fe0ca1: Pulling fs layer
+9d6040f2a28f: Pulling fs layer
+0e2e66b89284: Pulling fs layer
+c91bb44404d4: Pulling fs layer
+568a7ba86886: Pulling fs layer
+639b7fe05dfb: Pulling fs layer
+39e51fb77a01: Pulling fs layer
+5ba13a915813: Pulling fs layer
+427233e96ea2: Pulling fs layer
+0e2e66b89284: Waiting
+568a7ba86886: Waiting
+c91bb44404d4: Waiting
+639b7fe05dfb: Waiting
+39e51fb77a01: Waiting
+5ba13a915813: Waiting
+427233e96ea2: Waiting
+ca7dd9ec2225: Verifying Checksum
+ca7dd9ec2225: Download complete
+9d6040f2a28f: Verifying Checksum
+9d6040f2a28f: Download complete
+1b78b4fe0ca1: Verifying Checksum
+1b78b4fe0ca1: Download complete
+ca7dd9ec2225: Pull complete
+1b78b4fe0ca1: Pull complete
+568a7ba86886: Download complete
+0e2e66b89284: Verifying Checksum
+0e2e66b89284: Download complete
+9d6040f2a28f: Pull complete
+c91bb44404d4: Verifying Checksum
+c91bb44404d4: Download complete
+0e2e66b89284: Pull complete
+c91bb44404d4: Pull complete
+568a7ba86886: Pull complete
+39e51fb77a01: Verifying Checksum
+39e51fb77a01: Download complete
+5ba13a915813: Verifying Checksum
+5ba13a915813: Download complete
+639b7fe05dfb: Verifying Checksum
+639b7fe05dfb: Download complete
+427233e96ea2: Verifying Checksum
+427233e96ea2: Download complete
+639b7fe05dfb: Pull complete
+39e51fb77a01: Pull complete
+5ba13a915813: Pull complete
+427233e96ea2: Pull complete
+Digest: sha256:6d3052df12ecfebf5fa4a0db374559686879d3aa8939b409b3bda460cc74336d
+Status: Downloaded newer image for docker.pkg.github.com/artslabcreatives/bulk-currency-editor-curcy/php-actions_composer_bulk-currency-editor-curcy:php-8.1-build2.1.0
+docker.pkg.github.com/artslabcreatives/bulk-currency-editor-curcy/php-actions_composer_bulk-currency-editor-curcy:php-8.1-build2.1.0
+Docker tag: docker.pkg.github.com/artslabcreatives/bulk-currency-editor-curcy/php-actions_composer_bulk-currency-editor-curcy:php-8.1-build2.1.0
+No private keys supplied
+Command: composer install --no-progress --no-interaction
+Skipping env variable PWD
+Skipping env variable HOME
+Skipping env variable SHLVL
+Skipping env variable PATH
+Running php-build composer
+WARNING! Your password will be stored unencrypted in /home/runner/.docker/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+Login Succeeded
+Pulling docker.pkg.github.com/artslabcreatives/bulk-currency-editor-curcy/php-actions_composer_bulk-currency-editor-curcy:php-8.1-build2.1.0
+php-8.1-build2.1.0: Pulling from artslabcreatives/bulk-currency-editor-curcy/php-actions_composer_bulk-currency-editor-curcy
+ca7dd9ec2225: Pulling fs layer
+1b78b4fe0ca1: Pulling fs layer
+9d6040f2a28f: Pulling fs layer
+0e2e66b89284: Pulling fs layer
+c91bb44404d4: Pulling fs layer
+568a7ba86886: Pulling fs layer
+639b7fe05dfb: Pulling fs layer
+39e51fb77a01: Pulling fs layer
+5ba13a915813: Pulling fs layer
+427233e96ea2: Pulling fs layer
+0e2e66b89284: Waiting
+c91bb44404d4: Waiting
+568a7ba86886: Waiting
+639b7fe05dfb: Waiting
+39e51fb77a01: Waiting
+5ba13a915813: Waiting
+427233e96ea2: Waiting
+ca7dd9ec2225: Verifying Checksum
+ca7dd9ec2225: Download complete
+9d6040f2a28f: Verifying Checksum
+9d6040f2a28f: Download complete
+1b78b4fe0ca1: Verifying Checksum
+1b78b4fe0ca1: Download complete
+ca7dd9ec2225: Pull complete
+1b78b4fe0ca1: Pull complete
+9d6040f2a28f: Pull complete
+0e2e66b89284: Verifying Checksum
+0e2e66b89284: Download complete
+568a7ba86886: Download complete
+0e2e66b89284: Pull complete
+c91bb44404d4: Verifying Checksum
+c91bb44404d4: Download complete
+c91bb44404d4: Pull complete
+39e51fb77a01: Verifying Checksum
+39e51fb77a01: Download complete
+568a7ba86886: Pull complete
+639b7fe05dfb: Verifying Checksum
+639b7fe05dfb: Download complete
+5ba13a915813: Verifying Checksum
+5ba13a915813: Download complete
+427233e96ea2: Verifying Checksum
+427233e96ea2: Download complete
+639b7fe05dfb: Pull complete
+39e51fb77a01: Pull complete
+5ba13a915813: Pull complete
+427233e96ea2: Pull complete
+Digest: sha256:6d3052df12ecfebf5fa4a0db374559686879d3aa8939b409b3bda460cc74336d
+Status: Downloaded newer image for docker.pkg.github.com/artslabcreatives/bulk-currency-editor-curcy/php-actions_composer_bulk-currency-editor-curcy:php-8.1-build2.1.0
+docker.pkg.github.com/artslabcreatives/bulk-currency-editor-curcy/php-actions_composer_bulk-currency-editor-curcy:php-8.1-build2.1.0
+Docker tag: docker.pkg.github.com/artslabcreatives/bulk-currency-editor-curcy/php-actions_composer_bulk-currency-editor-curcy:php-8.1-build2.1.0
+No private keys supplied
+Command: composer install --no-progress --no-interaction
+Skipping env variable PWD
+Skipping env variable HOME
+Skipping env variable SHLVL
+Skipping env variable PATH
+Running php-build composer
+WARNING! Your password will be stored unencrypted in /home/runner/.docker/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+Login Succeeded
+Pulling docker.pkg.github.com/artslabcreatives/bulk-currency-editor-curcy/php-actions_composer_bulk-currency-editor-curcy:php-8.1-build2.1.0
+php-8.1-build2.1.0: Pulling from artslabcreatives/bulk-currency-editor-curcy/php-actions_composer_bulk-currency-editor-curcy
+ca7dd9ec2225: Pulling fs layer
+1b78b4fe0ca1: Pulling fs layer
+9d6040f2a28f: Pulling fs layer
+0e2e66b89284: Pulling fs layer
+c91bb44404d4: Pulling fs layer
+568a7ba86886: Pulling fs layer
+639b7fe05dfb: Pulling fs layer
+39e51fb77a01: Pulling fs layer
+5ba13a915813: Pulling fs layer
+427233e96ea2: Pulling fs layer
+568a7ba86886: Waiting
+639b7fe05dfb: Waiting
+39e51fb77a01: Waiting
+5ba13a915813: Waiting
+427233e96ea2: Waiting
+0e2e66b89284: Waiting
+c91bb44404d4: Waiting
+1b78b4fe0ca1: Verifying Checksum
+1b78b4fe0ca1: Download complete
+ca7dd9ec2225: Download complete
+ca7dd9ec2225: Pull complete
+0e2e66b89284: Verifying Checksum
+0e2e66b89284: Download complete
+9d6040f2a28f: Verifying Checksum
+9d6040f2a28f: Download complete
+1b78b4fe0ca1: Pull complete
+c91bb44404d4: Verifying Checksum
+c91bb44404d4: Download complete
+9d6040f2a28f: Pull complete
+568a7ba86886: Verifying Checksum
+568a7ba86886: Download complete
+0e2e66b89284: Pull complete
+639b7fe05dfb: Verifying Checksum
+639b7fe05dfb: Download complete
+39e51fb77a01: Verifying Checksum
+39e51fb77a01: Download complete
+c91bb44404d4: Pull complete
+5ba13a915813: Verifying Checksum
+5ba13a915813: Download complete
+568a7ba86886: Pull complete
+427233e96ea2: Verifying Checksum
+427233e96ea2: Download complete
+639b7fe05dfb: Pull complete
+39e51fb77a01: Pull complete
+5ba13a915813: Pull complete
+427233e96ea2: Pull complete
+Digest: sha256:6d3052df12ecfebf5fa4a0db374559686879d3aa8939b409b3bda460cc74336d
+Status: Downloaded newer image for docker.pkg.github.com/artslabcreatives/bulk-currency-editor-curcy/php-actions_composer_bulk-currency-editor-curcy:php-8.1-build2.1.0
+docker.pkg.github.com/artslabcreatives/bulk-currency-editor-curcy/php-actions_composer_bulk-currency-editor-curcy:php-8.1-build2.1.0
+Docker tag: docker.pkg.github.com/artslabcreatives/bulk-currency-editor-curcy/php-actions_composer_bulk-currency-editor-curcy:php-8.1-build2.1.0
+No private keys supplied
+Command: composer install --no-progress --no-interaction
+Skipping env variable PWD
+Skipping env variable HOME
+Skipping env variable SHLVL
+Skipping env variable PATH
+Running php-build composer
+WARNING! Your password will be stored unencrypted in /home/runner/.docker/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+Login Succeeded
+Pulling docker.pkg.github.com/artslabcreatives/bulk-currency-editor-curcy/php-actions_composer_bulk-currency-editor-curcy:php-8.1-build2.1.0
+php-8.1-build2.1.0: Pulling from artslabcreatives/bulk-currency-editor-curcy/php-actions_composer_bulk-currency-editor-curcy
+ca7dd9ec2225: Pulling fs layer
+1b78b4fe0ca1: Pulling fs layer
+9d6040f2a28f: Pulling fs layer
+0e2e66b89284: Pulling fs layer
+c91bb44404d4: Pulling fs layer
+568a7ba86886: Pulling fs layer
+639b7fe05dfb: Pulling fs layer
+39e51fb77a01: Pulling fs layer
+5ba13a915813: Pulling fs layer
+427233e96ea2: Pulling fs layer
+568a7ba86886: Waiting
+639b7fe05dfb: Waiting
+39e51fb77a01: Waiting
+5ba13a915813: Waiting
+427233e96ea2: Waiting
+0e2e66b89284: Waiting
+c91bb44404d4: Waiting
+ca7dd9ec2225: Verifying Checksum
+ca7dd9ec2225: Download complete
+1b78b4fe0ca1: Verifying Checksum
+1b78b4fe0ca1: Download complete
+9d6040f2a28f: Verifying Checksum
+9d6040f2a28f: Download complete
+ca7dd9ec2225: Pull complete
+1b78b4fe0ca1: Pull complete
+9d6040f2a28f: Pull complete
+0e2e66b89284: Download complete
+568a7ba86886: Verifying Checksum
+568a7ba86886: Download complete
+0e2e66b89284: Pull complete
+c91bb44404d4: Verifying Checksum
+c91bb44404d4: Download complete
+c91bb44404d4: Pull complete
+568a7ba86886: Pull complete
+39e51fb77a01: Download complete
+639b7fe05dfb: Verifying Checksum
+639b7fe05dfb: Download complete
+5ba13a915813: Verifying Checksum
+5ba13a915813: Download complete
+427233e96ea2: Verifying Checksum
+427233e96ea2: Download complete
+639b7fe05dfb: Pull complete
+39e51fb77a01: Pull complete
+5ba13a915813: Pull complete
+427233e96ea2: Pull complete
+Digest: sha256:6d3052df12ecfebf5fa4a0db374559686879d3aa8939b409b3bda460cc74336d
+Status: Downloaded newer image for docker.pkg.github.com/artslabcreatives/bulk-currency-editor-curcy/php-actions_composer_bulk-currency-editor-curcy:php-8.1-build2.1.0
+docker.pkg.github.com/artslabcreatives/bulk-currency-editor-curcy/php-actions_composer_bulk-currency-editor-curcy:php-8.1-build2.1.0
+Docker tag: docker.pkg.github.com/artslabcreatives/bulk-currency-editor-curcy/php-actions_composer_bulk-currency-editor-curcy:php-8.1-build2.1.0
+No private keys supplied
+Command: composer install --no-progress --no-interaction
+Skipping env variable PWD
+Skipping env variable HOME
+Skipping env variable SHLVL
+Skipping env variable PATH
+Running php-build composer
+WARNING! Your password will be stored unencrypted in /home/runner/.docker/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+Login Succeeded
+Pulling docker.pkg.github.com/artslabcreatives/bulk-currency-editor-curcy/php-actions_composer_bulk-currency-editor-curcy:php-8.1-build2.1.0
+php-8.1-build2.1.0: Pulling from artslabcreatives/bulk-currency-editor-curcy/php-actions_composer_bulk-currency-editor-curcy
+ca7dd9ec2225: Pulling fs layer
+1b78b4fe0ca1: Pulling fs layer
+9d6040f2a28f: Pulling fs layer
+0e2e66b89284: Pulling fs layer
+c91bb44404d4: Pulling fs layer
+568a7ba86886: Pulling fs layer
+639b7fe05dfb: Pulling fs layer
+39e51fb77a01: Pulling fs layer
+5ba13a915813: Pulling fs layer
+427233e96ea2: Pulling fs layer
+568a7ba86886: Waiting
+639b7fe05dfb: Waiting
+39e51fb77a01: Waiting
+5ba13a915813: Waiting
+427233e96ea2: Waiting
+0e2e66b89284: Waiting
+c91bb44404d4: Waiting
+ca7dd9ec2225: Verifying Checksum
+ca7dd9ec2225: Download complete
+9d6040f2a28f: Verifying Checksum
+9d6040f2a28f: Download complete
+1b78b4fe0ca1: Verifying Checksum
+1b78b4fe0ca1: Download complete
+ca7dd9ec2225: Pull complete
+1b78b4fe0ca1: Pull complete
+9d6040f2a28f: Pull complete
+0e2e66b89284: Verifying Checksum
+0e2e66b89284: Download complete
+0e2e66b89284: Pull complete
+568a7ba86886: Verifying Checksum
+568a7ba86886: Download complete
+c91bb44404d4: Verifying Checksum
+c91bb44404d4: Download complete
+c91bb44404d4: Pull complete
+568a7ba86886: Pull complete
+39e51fb77a01: Verifying Checksum
+39e51fb77a01: Download complete
+5ba13a915813: Verifying Checksum
+5ba13a915813: Download complete
+639b7fe05dfb: Verifying Checksum
+639b7fe05dfb: Download complete
+427233e96ea2: Verifying Checksum
+427233e96ea2: Download complete
+639b7fe05dfb: Pull complete
+39e51fb77a01: Pull complete
+5ba13a915813: Pull complete
+427233e96ea2: Pull complete
+Digest: sha256:6d3052df12ecfebf5fa4a0db374559686879d3aa8939b409b3bda460cc74336d
+Status: Downloaded newer image for docker.pkg.github.com/artslabcreatives/bulk-currency-editor-curcy/php-actions_composer_bulk-currency-editor-curcy:php-8.1-build2.1.0
+docker.pkg.github.com/artslabcreatives/bulk-currency-editor-curcy/php-actions_composer_bulk-currency-editor-curcy:php-8.1-build2.1.0
+Docker tag: docker.pkg.github.com/artslabcreatives/bulk-currency-editor-curcy/php-actions_composer_bulk-currency-editor-curcy:php-8.1-build2.1.0
+No private keys supplied
+Command: composer install --no-progress --no-interaction
+Skipping env variable PWD
+Skipping env variable HOME
+Skipping env variable SHLVL
+Skipping env variable PATH

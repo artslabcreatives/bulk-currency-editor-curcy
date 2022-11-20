@@ -18,7 +18,10 @@ jobs:
       run: rm -f artlab-bulk-product-editor.zip
 
     - name: Make Zip
-      run: zip artlab-bulk-product-editor.zip ./deploy
+      run: mv deploy artlab-bulk-product-editor
+
+    - name: Make Zip
+      run: zip artlab-bulk-product-editor.zip artlab-bulk-product-editor
 
     - name: Create Zip
       run: zip artlab-bulk-product-editor2.zip artlab-bulk-product-editor.zip
@@ -30,7 +33,7 @@ jobs:
       run: rm -f artlab-bulk-product-editor.zip
 
     - name: Delete mkdir
-      run: rm deploy -r
+      run: rm artlab-bulk-product-editor -r
 
     - name: Remove existing update.json
       run: rm updates/update.json
