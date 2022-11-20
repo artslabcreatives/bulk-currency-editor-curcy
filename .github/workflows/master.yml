@@ -23,7 +23,7 @@ jobs:
       run: sudo rm -f updates/artlab-bulk-product-editor.zip
     - name: Move Directory
       run: >
-        cd ../../ &&
+        cd ../ &&
         ls -l &&
         zip -r artlab-bulk-product-editor.zip ./updates -x ".git/*" ".github/*" &&
         ls -l &&
