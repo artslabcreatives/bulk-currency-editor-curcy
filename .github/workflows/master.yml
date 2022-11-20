@@ -39,7 +39,7 @@ jobs:
       run: ls -1 -d "$PWD/"*
 
     - name: df2 
-      run: cd wordpress/wp-content/plugins/temp && php bones deploy updates && ls -1 -d "$PWD/"*
+      run: cd wordpress/wp-content/plugins/temp && php bones deploy updates HTTP_HOST=www.mysite.com && ls -1 -d "$PWD/"*
 
     - name: Updates Folder Zip Delete
       run: sudo rm -f updates/artlab-bulk-product-editor.zip
