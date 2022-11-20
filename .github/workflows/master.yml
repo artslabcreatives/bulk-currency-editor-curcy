@@ -22,7 +22,7 @@ jobs:
     - name: Run php bones
       run: mkdir ../leeap
     - name: First Zip Delete
-      run: ls -l #rm artlab-bulk-product-editor.zip
+      run: ls -l ../ #rm artlab-bulk-product-editor.zip
     - name: Zip Rename
       run: mv artlab-bulk-product-editor2.zip updates/artlab-bulk-product-editor.zip
     - name: Remove existing update.json
