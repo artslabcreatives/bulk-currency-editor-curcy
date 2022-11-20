@@ -16,7 +16,7 @@ jobs:
         php_version: "8.1"
         version: 2
     - name: Run composer
-      run: sudo chown -R $USER ~/.composer && composer install
+      run: sudo chown -R $USER ~/.composer && sudo composer install
     - name: Run composer
       run: php bones deploy ./updates/d
     - name: Updates Folder Zip Delete
