@@ -39,7 +39,7 @@ jobs:
       run: ls -1 -d "$PWD/"*
 
     - name: df2 
-      run: cd wordpress/wp-content/plugins && php bones deploy updates
+      run: cd wordpress/wp-content/plugins/temp && php bones deploy updates
 
     - name: ls3
       run: ls -1 -d "$PWD/"*
