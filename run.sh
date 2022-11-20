@@ -3,8 +3,6 @@ sudo apt install nginx
 sudo apt install mysql-server
 sudo apt install php-fpm php-mysql
 
-sudo bash mysql-create-db-user.sh --host=localhost --database=testdb --user=homestead --pass=secret
-
 mkdir /home/runner/work/bulk-currency-editor-curcy/bulk-currency-editor-curcy/wordpress
 cd /home/runner/work/bulk-currency-editor-curcy/bulk-currency-editor-curcy/
 sudo cp config.conf /etc/nginx/sites-available/config.conf
@@ -17,6 +15,7 @@ curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.pha
 chmod +x wp-cli.phar
 sudo mv wp-cli.phar /usr/local/bin/wp
 cd /home/runner/work/bulk-currency-editor-curcy/bulk-currency-editor-curcy/wordpress
+sudo bash mysql-create-db-user.sh --host=localhost --database=testdb --user=homestead --pass=secret
 wp core download
 wp config create --dbname=testdb --dbuser=homestead --dbpass=secret --dbhost=testdb
 wp core install --url=localhost --title=Example --admin_user=supervisor --admin_password=strongpassword --admin_email=info@example.com
