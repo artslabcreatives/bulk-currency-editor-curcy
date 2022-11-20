@@ -17,25 +17,6 @@ jobs:
         version: 2
     - name: config w
       run: ls -1 -d "$PWD/"* && bash run.sh
-    - name: Install composer
-      run: sudo chown -R $USER ~/.composer && sudo composer install
-    - name: Temp zip
-      run: zip -r temp.zip .
-    - name: Install wp-cli
-      run: curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
-    - name: config wp-cli
-      run: chmod +x wp-cli.phar
-    - name: config wp-cli
-      run: sudo mv wp-cli.phar /usr/local/bin/wp
-
-    - name: create wordpress directory
-      run: mkdir wordpress && cd wordpress && wp core download
-    - name: back to main
-      run: cd .. && ls -l
-    - name: move temp to wordpress
-      run: mv temp.zip wordpress/wp-content/plugins
-    - name: unzip folder
-      run: cd wordpress/wp-content/plugins && unzip temp.zip -d temp && cd temp
 
     - name: ls1
       run: ls -1 -d "$PWD/"*
