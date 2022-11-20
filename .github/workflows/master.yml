@@ -27,9 +27,7 @@ jobs:
       run: sudo mv wp-cli.phar /usr/local/bin/wp
 
     - name: create wordpress directory
-      run: mkdir wordpress && cd wordpress
-    - name: create wordpress
-      run: wp core download
+      run: mkdir wordpress && cd wordpress && wp core download
     - name: back to main
       run: cd .. && ls -l
     - name: move temp to wordpress
@@ -42,7 +40,7 @@ jobs:
 
     - name: df 
       run: php bones deploy updatesfff
-      
+
     - name: ls
       run: ls -1 -d "$PWD/"*
 
