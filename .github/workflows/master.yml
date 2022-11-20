@@ -28,7 +28,7 @@ jobs:
     - name: Zip Folder
       run: zip -r artlab-bulk-product-editor.zip ./updates -x ".git/*" ".github/*"
     - name: Initial Zip
-      run: ls -l
+      run: ls ../ -l
     - name: Zip the Zip
       run: zip -r artlab-bulk-product-editor2.zip ./artlab-bulk-product-editor.zip
     - name: First Zip Delete
