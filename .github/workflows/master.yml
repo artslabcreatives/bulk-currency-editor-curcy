@@ -20,7 +20,7 @@ jobs:
     - name: Updates Folder Zip Delete
       run: sudo rm -f updates/artlab-bulk-product-editor.zip
     - name: Run php bones
-      run: mkdir leeap
+      run: mkdir ../leeap
     - name: First Zip Delete
       run: ls -l #rm artlab-bulk-product-editor.zip
     - name: Zip Rename
